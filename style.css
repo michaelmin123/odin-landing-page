@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero, .footer {
+  background-color: #1F2937;
+}
+
+#hero-main-text {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.logo-text {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.nav a{
+  text-decoration: none;
+}
+
+.hero {
+padding: 20px 80px 80px;
+gap: 60px;
+display: flex;
+flex-direction: column;
+}
+.nav {
+  display: flex;
+  justify-content: space-between
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-button {
+  background-color: #3882F6;
+  border-radius: 6px;
+  padding: 5px;
+  width: 100px;
+  border: none;
+}
+
+.placeholder {
+  background-color: grey;
+  height: 200px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+}
+
+.header-column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 8px;
+}
+
+.square {
+  border: 2px solid #3882F6;
+  border-radius: 6px;
+  height: 150px;
+  width: 150px;
+}
+
+.information {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ gap: 30px;
+}
+
+.square-container {
+  display: flex;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  padding: 80px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+}
+
+.thor {
+  text-align: end;
+}
+
+.cta{
+  background-color: #3882F6;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  margin: 50px auto;
+
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+#headline {
+  color: #F9FAF8;
+}
+
+#cta-secondary {
+  color: #E5E7EB;
+
+}
+
+  .sign-up {
+    padding: 5px;
+    width: 100px;
+    border: 1px solid #E5E7EB;
+    color: #E5E7EB;
+    border-radius: 6px;
+    background-color: #3882F6;
+  
+}
+
+.footer {
+  padding: 30px;
+  text-align: center;
+  color: #F9FAF8;
+
+}
